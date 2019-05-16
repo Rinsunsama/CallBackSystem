@@ -34,7 +34,7 @@ public class GameRoot : MonoBehaviour {
         {
             Debug.Log("new => do something ");
         }, 1000, ETimeUnit.Millisecond, 0);
-        Debug.Log("Delete TimerTask====ret====>" + ret);
+        Debug.Log("Replace TimerTask====ret====>" + ret);
     }
     #endregion
 

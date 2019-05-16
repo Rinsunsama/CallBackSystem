@@ -3,12 +3,12 @@
 //定时时间任务
 public class TimeTask
 {
-    public float deskTime;  //触发时间
-    public float delay;     //延时时间
+    public double deskTime;  //触发时间
+    public double delay;     //延时时间
     public Action callBack; 
     public int count;       //循环次数，0表示无限循环
     public int tID;         //每个计时任务唯一ID
-    public TimeTask(Action callBack,float deskTime,int count,float delay,int tID)
+    public TimeTask(Action callBack, double deskTime,int count, double delay,int tID)
     {
         this.deskTime = deskTime;
         this.callBack = callBack;
